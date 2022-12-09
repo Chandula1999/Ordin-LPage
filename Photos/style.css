@@ -20,6 +20,7 @@
     
 }
 .nav-bar{
+    padding-top: 5px;
     height: 5vh;
     display: flex;
     align-items: center;
@@ -33,7 +34,9 @@
     margin-left: 7px;
     margin-right: 7px;
     cursor: pointer;
-    font-size: small;
+    font-size: 18px;
+    color: #e5e7eb;
+    
 }
 .sub-con{
     width: 50%;
@@ -48,6 +51,11 @@
     width: 300px;
     height: 200px;
 }
+.container-01 .sub-container h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
 .container-01 .sub-container .sub-con button{
     width: 75px;
     height: 25px;
@@ -61,4 +69,56 @@
 }
 .container-01 .sub-container p{
     font-size: small;
+}
+.container-02{
+    /* border: solid black 1px; */
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 15px;
+}
+.container-02>div {
+    /* border: solid black 1px; */
+    display: flex;
+    flex-grow: 2;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+
+.container-02 div >div{
+    /* border: solid black 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    width: 150px;
+}
+.squre{
+    border: 3px solid blue;
+    width: 150px;
+    height: 175px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.container-03{
+    flex-direction: column;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.container-03 p{
+    width: 60%;
+    font-size: 20px;
+    font-style: italic;
+}
+.container-03 .auther {
+    margin-left: auto;
+    margin-right: 23%;
+    font-weight: bolder;
 }
