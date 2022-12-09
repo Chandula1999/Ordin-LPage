@@ -50,6 +50,8 @@
 .container-01 .sub-container img{
     width: 300px;
     height: 200px;
+    border: #e5e7eb solid 3px;
+    border-radius: 5px;
 }
 .container-01 .sub-container h1{
     font-size: 48px;
