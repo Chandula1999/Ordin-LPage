@@ -122,3 +122,24 @@
     margin-right: 23%;
     font-weight: bolder;
 }
+.rec{
+    display: flex;
+    justify-content: space-between;
+    border: #3882f6 solid 2px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#3882f6;
+    color: #f9faf8;
+}
+.container-04{
+    padding: 50px 120px 50px 120px ;
+}
+.rec .button{
+    background-color: #3882f6;
+    border:solid 2px #e5e7eb ;
+    border-radius: 10px;
+    padding: 5px;
+    width: 80px;
+    color: #f9faf8;
+    font-weight: bold;
+}
