@@ -154,3 +154,15 @@ footer{
     background-color: #1f2937;
     color: #e5e7eb;
 }
+
+.squre:hover,
+.button {
+    transform: scale(1);
+    transition: transform 0.3s;
+  }
+  
+  .squre:hover,
+  .button:hover {
+    transform: scale(1.1);
+  }
+  
