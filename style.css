@@ -105,7 +105,8 @@
   height: 175px;
   border-radius: 13px;
   margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .8);
 }
 .container-03 {
   flex-direction: column;
@@ -159,7 +160,8 @@ footer {
 }
 
 .button,
-.squre {
+.squre,
+.logo {
   transform: scale(1);
   transition: transform 0.3s;
 }
@@ -167,11 +169,6 @@ footer {
 .button:hover,
 .squre:hover {
   transform: scale(1.1);
-}
-
-.logo:hover {
-  transform: scale(1);
-  transition: transform 0.3s;
 }
 
 .logo:hover {
