@@ -28,12 +28,13 @@
   display: flex;
   list-style: none;
 }
-.nav-bar ul li {
+.nav-bar ul li a {
   margin-left: 7px;
   margin-right: 7px;
   cursor: pointer;
   font-size: 18px;
   color: #e5e7eb;
+  text-decoration: none;
 }
 .sub-con {
   width: 50%;
