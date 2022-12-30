@@ -146,7 +146,19 @@
         font-size: 19px;
         color: white;
       }
+
+      /* to get a pop up */
     </style>
+    <script>
+       function showConfirmationPopup() {
+        if (document.getElementById('email').value &&
+            document.getElementById('text').value &&
+            document.getElementById('password').value) {
+          alert('Confirmation email sent,Please Check your inbox!');
+        }
+      }
+    </script>
+
   </head>
   <body>
     <nav>
@@ -162,12 +174,12 @@
         <h1>Sign up</h1>
 
         <form action="">
-          <input type="text" placeholder="First Name" required />
-          <input type="text" placeholder="Last Name" required />
-          <input type="email" placeholder="Email " required />
-          <input type="password" placeholder="Password" required />
-          <input type="password" placeholder="Comfirm Password" required />
-          <input type="submit" value="Sign up" />
+          <input type="text" id="text" placeholder="First Name" required />
+          <input type="text" id="text" placeholder="Last Name" required />
+          <input type="email" id="email" placeholder="Email " required />
+          <input type="password" id="password" placeholder="Password" required />
+          <input type="password" id="password" placeholder="Comfirm Password" required />
+          <input type="submit" onclick="showConfirmationPopup()" value="Sign up" />
           <div id="option"><p><center>If already have a account !</center></p></div>
         </form>
         <a href="./signin.html"><input type="submit" value="Sign in" id="signin" /></a>
